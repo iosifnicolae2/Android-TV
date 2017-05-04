@@ -123,9 +123,10 @@ public class HomeScreen extends AppCompatActivity implements MediaPlayer.OnInfoL
         channels.add(new Canal(R.string.channel_discovery, "sop://broker.sopcast.com:3912/256241", "http://streams.magazinmixt.ro/img/logos/national_geographic.jpg"));
         channels.add(new Canal(R.string.channel_national_geographic, "sop://broker.sopcast.com:3912/148248", "http://streams.magazinmixt.ro/img/logos/national_geographic.jpg"));
         channels.add(new Canal(R.string.channel_minimax, "sop://broker.sopcast.com:3912/148263", "http://streams.magazinmixt.ro/img/logos/national_geographic.jpg"));
-        channels.add(new Canal(R.string.channel_digi24, "http://81.196.0.126/digi24edge/digi24hdhqhls/index.m3u8", "http://streams.magazinmixt.ro/img/logos/national_geographic.jpg"));
+        channels.add(new Canal(R.string.channel_digi24, "sop://broker.sopcast.com:3912/111947", "http://streams.magazinmixt.ro/img/logos/national_geographic.jpg"));
         channels.add(new Canal(R.string.channel_b1, "sop://broker.sopcast.com:3912/148087", "http://streams.magazinmixt.ro/img/logos/national_geographic.jpg"));
         channels.add(new Canal(R.string.channel_romania_tv, "sop://broker.sopcast.com:3912/148258", "http://streams.magazinmixt.ro/img/vlogos/national_geographic.jpg"));
+        channels.add(new Canal(R.string.channel_antena3, "sop://broker.sopcast.com:3912/148084", "http://streams.magazinmixt.ro/img/vlogos/national_geographic.jpg"));
 
 
 
